@@ -11,12 +11,13 @@
     "test": "cypress run",
     "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js",
     "test:cloud": "cypress run --record --tag 'desktop'",
-    "test:tablet:cloud": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js"
+    "test:tablet:cloud": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js --env grepTags=@desktop-and-tablet,grepOmitFiltered=true"
   },
   "keywords": [],
   "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
   "license": "MIT",
   "devDependencies": {
+    "@cypress/grep": "^3.1.5",
     "@faker-js/faker": "^7.6.0",
     "cypress": "^12.11.0",
     "cypress-iframe": "^1.0.1",
