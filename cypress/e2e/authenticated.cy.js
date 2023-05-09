@@ -35,7 +35,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
 
   it('logs out', { tags: '@desktop-and-tablet' }, () => {
     cy.visit('/')
-    cy.wait(2000)
+    cy.wait('@getNotes')
 
     cy.contains('.nav a', 'Logout').click()
 
