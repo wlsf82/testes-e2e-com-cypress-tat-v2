@@ -42,5 +42,5 @@ Run `npm run cy:open:tablet` to open the Cypress App to run tests in interactive
 
 ___
 
-Made with ❤️ by [Walmy](https://walmyr.dev).
+Made with ❤️ by [Walmyr](https://walmyr.dev).
 
