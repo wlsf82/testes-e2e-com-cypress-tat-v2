@@ -18,11 +18,11 @@
   "license": "MIT",
   "devDependencies": {
     "@cypress/grep": "^3.1.5",
-    "@faker-js/faker": "^7.6.0",
-    "cypress": "^12.12.0",
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.14.0",
     "cypress-iframe": "^1.0.1",
     "cypress-mailosaur": "^2.13.0",
-    "eslint": "^8.40.0",
+    "eslint": "^8.42.0",
     "eslint-plugin-cypress": "^2.13.3"
   }
 }
